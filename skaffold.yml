@@ -7,6 +7,8 @@ deploy:
 build:
   local:
     push: false
+  # googleCloudBuild:
+  #   # projectId: concrete-envoy-337622
   artifacts:
     - image: pranjalyadav451/auth
       context: auth
